@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Page Title</title>
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<!-- Latest compiled JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+		<style type="text/css">
+			.frontpage_square {
+				position:relative;
+				overflow:hidden;
+				padding-bottom:100%;
+			}
+			.no_pad {
+				padding: 0px 0px 0px 0px;
+			}
+			.frontpage_square img {
+				position:absolute;
+			}
+			.thumbnail {
+				margin-bottom: 0px;
+				border: none;
+				padding: 0px;
+			}
+			.status {
+				padding-top: 20px;
+			}
+			input[type="radio"] {
+				margin-right: 10px;
+			}
+		</style>
+
+	</head>
+	<body>
+		<div style="padding-bottom: 20px;"></div>
+
+		<div class="col-xs-4">
+			<div class="col-xs-3 no_pad">
+				<a href="#" class="thumbnail">
+					<div id='block-1' class="frontpage_square">
+						<img id='image-1' class="img img-responsive full-width" />
+					</div>
+				</a>
+			</div>
+			<div class="col-xs-3 no_pad">
+				<a href="#" class="thumbnail">
+					<div id='block-2' class="frontpage_square">
+						<img id='image-2' class="img img-responsive full-width" />
+					</div>
+				</a>
+			</div>
+			<div class="col-xs-3 no_pad">
+				<a href="#" class="thumbnail">
+					<div id='block-3' class="frontpage_square">
+						<img id='image-3' class="img img-responsive full-width" />
+					</div>
+				</a>
+			</div>
+			<div class="col-xs-3 no_pad">
+				<a href="#" class="thumbnail">
+					<div id='block-4' class="frontpage_square">
+						<img id='image-4' class="img img-responsive full-width" />
+					</div>
+				</a>
+			</div>
+			<div class="col-xs-3 no_pad">
+				<a href="#" class="thumbnail">
+					<div id='block-5' class="frontpage_square">
+						<img id='image-5' class="img img-responsive full-width" />
+					</div>
+				</a>
+			</div>
+			<div class="col-xs-3 no_pad">
+				<a href="#" class="thumbnail">
+					<div id='block-6' class="frontpage_square">
+						<img id='image-6' class="img img-responsive full-width" />
+					</div>
+				</a>
+			</div>
+			<div class="col-xs-3 no_pad">
+				<a href="#" class="thumbnail">
+					<div id='block-7' class="frontpage_square">
+						<img id='image-7' class="img img-responsive full-width" />
+					</div>
+				</a>
+			</div>
+			<div class="col-xs-3 no_pad">
+				<a href="#" class="thumbnail">
+					<div id='block-8' class="frontpage_square">
+						<img id='image-8' class="img img-responsive full-width" />
+					</div>
+				</a>
+			</div>
+			<div class="col-xs-3 no_pad">
+				<a href="#" class="thumbnail">
+					<div id='block-9' class="frontpage_square">
+						<img id='image-9' class="img img-responsive full-width" />
+					</div>
+				</a>
+			</div>
+			<div class="col-xs-3 no_pad">
+				<a href="#" class="thumbnail">
+					<div id='block-10' class="frontpage_square">
+						<img id='image-10' class="img img-responsive full-width" />
+					</div>
+				</a>
+			</div>
+			<div class="col-xs-3 no_pad">
+				<a href="#" class="thumbnail">
+					<div id='block-11' class="frontpage_square">
+						<img id='image-11' class="img img-responsive full-width" />
+					</div>
+				</a>
+			</div>
+			<div class="col-xs-3 no_pad">
+				<a href="#" class="thumbnail">
+					<div id='block-12' class="frontpage_square">
+						<img id='image-12' class="img img-responsive full-width" />
+					</div>
+				</a>
+			</div>
+			<div class="col-xs-3 no_pad">
+				<a href="#" class="thumbnail">
+					<div id='block-13' class="frontpage_square">
+						<img id='image-13' class="img img-responsive full-width" />
+					</div>
+				</a>
+			</div>
+			<div class="col-xs-3 no_pad">
+				<a href="#" class="thumbnail">
+					<div id='block-14' class="frontpage_square">
+						<img id='image-14' class="img img-responsive full-width" />
+					</div>
+				</a>
+			</div>
+			<div class="col-xs-3 no_pad">
+				<a href="#" class="thumbnail">
+					<div id='block-15' class="frontpage_square">
+						<img id='image-15' class="img img-responsive full-width" />
+					</div>
+				</a>
+			</div>
+			<div class="col-xs-3 no_pad">
+				<a href="#" class="thumbnail">
+					<div id='block-16' class="frontpage_square">
+						<img id='image-16' class="img img-responsive full-width" />
+					</div>
+				</a>
+			</div>
+		</div>
+
+		<div id='question-1' class="col-xs-7" style="display: none;">
+			<!-- Question content -->
+			<h3>
+				Question 1
+			</h3>
+			<p>
+				Translation memory tools are often promoted as tools that can help translators to improve their productivity. Does using translation memory tools also guarantee high-quality translations?
+			</p>
+			<hr>
+			<p>
+				Select one:
+			</p>
+			<!-- Radio buttons -->
+			<form action="#" id='form-1'>
+				<input type="radio" name="gender" value="wrong">
+					Yes, because the tool can check specific aspects of the translation such as consistency, correct use of numbers etc.
+				<br>
+				<input type="radio" name="gender" value="correct">
+					No, because the tool cannot check whether the translation is correct but it can help to improve the quality because it can help ensure consistency and perform specific quality checks.
+				<br>
+				<input type="radio" name="gender" value="wrong">
+					Yes, because the tool automatically checks the translation.
+				<br>
+				<input type="radio" name="gender" value="wrong">
+					No, because the tool cannot check whether the translation is correct.
+			</form>
+			<!-- Status content -->
+			<div class="status" id='status-1'></div>
+		</div>
+
+		<div id='question-2' class="col-xs-7" style="display: none;">
+			<!-- Question content -->
+			<h3>
+				Question 2
+			</h3>
+			<p>
+				Work out the price for a translation, at £75/1000 words (based on the source text) using the following translation memory rates:
+			</p>
+			<p>
+				Perfect Match/Context Match/Repetitions – 25%</br>
+				100% Match – 25 %</br>
+				85~99% – 50%</br>
+				75~84% – 75%</br>
+				0~74% – 100%
+			</p>
+			<p>
+				<img src="images/Q2_table.png" style="zoom: 50%;">
+			</p>
+			<hr>
+			<!-- Radio buttons -->
+			<form action="#" id='form-2'>
+				<input type="radio" name="gender" value="wrong">
+					£2404.95
+				<br>
+				<input type="radio" name="gender" value="wrong">
+					£1899.15
+				<br>
+				<input type="radio" name="gender" value="correct">
+					£1651.09
+				<br>
+				<input type="radio" name="gender" value="wrong">
+					£1399.13
+			</form>
+			<!-- Status content -->
+			<div class="status" id='status-2'></div>
+		</div>
+
+		<div id='question-3' class="col-xs-7" style="display: none;">
+			<!-- Question content -->
+			<h3>
+				Question 3
+			</h3>
+			<p>
+				Terminology management is an important part of the translation process as it ensures consistency and accuracy of a translation on term-level; something that a translation memory cannot ensure.
+			</p>
+			<p>
+				A term base goes beyond an ordinary dictionary in that it can for example also contain "forbidden" (do not use) terms, preferred terms etc.
+			</p>
+			<p>
+				A dictionary would generally contain a term in its "main" form (in most languages this would be the infinitive form of a verb or the singular of a noun, for example), and maybe also irregular/unusual forms (e.g. irregular plurals or irregular past tenses of a verb). 
+			</p>
+			<p>
+				Some translators include many different forms of a verb or a noun in their term base, for example when they work with languages where the verb or the noun itself changes depending on what is around it.
+			</p>
+			<p>
+				In German, for example, the word for "dance" changes depending on whether it is we dance ("wir <b>tanzen</b>"), she dances ("sie <b>tanzt</b>"), I dance ("ich <b>tanze</b>"), etc. Some other languages follow similar patterns.
+			</p>
+			<hr>
+			<p>
+				Which of the following statements is true?
+			</p>
+			<!-- Radio buttons -->
+			<form action="#" id='form-3'>
+				<input type="radio" name="gender" value="wrong">
+					Using different verb or noun forms in a term base is not a good idea because a term base should be created in exactly the same way as a paper dictionary to make it reliable and properly usable.
+				<br>
+				<input type="radio" name="gender" value="correct">
+					Using different verb or noun forms in a term base increases the productivity of the translator (as a lot less typing is necessary during translation).
+
+				<br>
+				<input type="radio" name="gender" value="wrong">
+					Using different verb or noun forms in a term base only makes the term base a lot bigger and really convoluted.
+			</form>
+			<!-- Status content -->
+			<div class="status" id='status-3'></div>
+		</div>
+
+		<div id='question-4' class="col-xs-7" style="display: none;">
+			<!-- Question content -->
+			<h3>
+				Question 4
+			</h3>
+			<p>
+				Machine translation can produce ‘raw’ translations of texts in relatively well-defined subject domains, which can be revised to give good-quality translated texts at an economically viable rate or which in their unedited state can be read and understood by specialists in the subject for information purposes. In some cases, with appropriate controls on the language of the input texts, translations can be produced automatically that are of higher quality needing little or no revision.
+			</p>
+			<hr>
+			<p>
+				Is the above statement true or false?
+			</p>
+			<!-- Radio buttons -->
+			<form action="#" id='form-4'>
+				<input type="radio" name="gender" value="correct">
+					True
+				<br>
+				<input type="radio" name="gender" value="wrong">
+					False
+			</form>
+			<!-- Status content -->
+			<div class="status" id='status-4'></div>
+		</div>
+
+		<div id='question-5' class="col-xs-7" style="display: none;">
+			<!-- Question content -->
+			<h3>
+				Question 5
+			</h3>
+			<p>
+				The table below shows a TM analysis file for a file for translation.
+			</p>
+			<p>
+				<img src="images/Q5_table.png" style="zoom: 50%;">
+			</p>
+			<hr>
+			<p>
+				How many segments of more than 100% matches does the analysed file contain?
+			</p>
+			<!-- Radio buttons -->
+			<form action="#" id='form-5'>
+				<input type="radio" name="gender" value="wrong">
+					667
+				<br>
+				<input type="radio" name="gender" value="wrong">
+					96
+				<br>
+				<input type="radio" name="gender" value="wrong">
+					21
+				<br>
+				<input type="radio" name="gender" value="correct">
+					75
+			</form>
+			<!-- Status content -->
+			<div class="status" id='status-5'></div>
+		</div>
+
+		<div id='question-6' class="col-xs-7" style="display: none;">
+			<!-- Question content -->
+			<h3>
+				Question 6
+			</h3>
+			<p>
+				You have been asked by your client to quote for the translation of a document consisting of 736 words (source word count). You run an analysis against your TM and see that you get 233 fuzzy matches. The remaining words are all no matches. Your base rate is £75/1000 words and you charge 60% of your full rate for fuzzy matches. How much would you quote your client net (i.e. excluding VAT) for this translation? Please round up the pence.
+			</p>
+			<hr>
+			<p>
+				Select one:
+			</p>
+			<!-- Radio buttons -->
+			<form action="#" id='form-6'>
+				<input type="radio" name="gender" value="wrong">
+					£47.22
+				<br>
+				<input type="radio" name="gender" value="wrong">
+					£46.22
+				<br>
+				<input type="radio" name="gender" value="correct">
+					£48.22
+				<br>
+				<input type="radio" name="gender" value="wrong">
+					£49.22
+			</form>
+			<!-- Status content -->
+			<div class="status" id='status-6'></div>
+		</div>
+
+		<div id='question-7' class="col-xs-7" style="display: none;">
+			<!-- Question content -->
+			<h3>
+				Question 7
+			</h3>
+			<p>
+				What is the difference between a translation memory and a terminology database?
+			</p>
+			<hr>
+			<p>
+				Select one:
+			</p>
+			<!-- Radio buttons -->
+			<form action="#" id='form-7'>
+				<input type="radio" name="gender" value="wrong">
+					A terminology database is where the computer automatically generates content itself, whereas a translation memory is more for re-use of terms across a project.
+				<br>
+				<input type="radio" name="gender" value="correct">
+					A translation memory ensures consistency on segment level, whereas a terminology database ensures consistency on term level.
+				<br>
+				<input type="radio" name="gender" value="wrong">
+					A translation memory is where the computer automatically generates content itself, whereas a terminology database is more for re-use of terms across a project.
+				<br>
+				<input type="radio" name="gender" value="wrong">
+					A translation memory allows translators to work on files from applications or platforms they are not necessarily familiar with, whereas a terminology database usually concerns applications or platforms that translators are already familiar with.
+			</form>
+			<!-- Status content -->
+			<div class="status" id='status-7'></div>
+		</div>
+
+		<div id='question-8' class="col-xs-7" style="display: none;">
+			<!-- Question content -->
+			<h3>
+				Question 8
+			</h3>
+			<p>
+				Translation memories are used for:
+			</p>
+			<hr>
+			<!-- Radio buttons -->
+			<form action="#" id='form-8'>
+				<input type="radio" name="gender" value="wrong">
+					Word counts, re-use analyses, consistency on terminology level (in conjunction with term bases), sharing projects among various translators.
+				<br>
+				<input type="radio" name="gender" value="wrong">
+					Re-using previously translated material.
+				<br>
+				<input type="radio" name="gender" value="wrong">
+					Converting complex file formats into a text-editable environment.
+				<br>
+				<input type="radio" name="gender" value="correct">
+					All answers given here are correct.
+			</form>
+			<!-- Status content -->
+			<div class="status" id='status-8'></div>
+		</div>
+
+		<div id='question-9' class="col-xs-7" style="display: none;">
+			<!-- Question content -->
+			<h3>
+				Question 9
+			</h3>
+			<p>
+				Many TM tools nowadays let you connect to online MT (machine translation) providers so that you can use both a TM and MT whilst translating. When you use machine translation in a TM tool what happens to your original text which you are about to translate?
+			</p>
+			<hr>
+			<p>
+				Select one:
+			</p>
+			<!-- Radio buttons -->
+			<form action="#" id='form-9'>
+				<input type="radio" name="gender" value="correct">
+					My original text stays in my TM tool and the MT provider "reads" it, provides a machine translation and it is then not 100% clear what happens to my original text at the MT provider's end, i.e. the MT provider might keep it or delete it.
+				<br>
+				<input type="radio" name="gender" value="wrong">
+					My original text stays in my TM tool and the MT provider "reads" it, provides a machine translation and then deletes it again from their server.
+				<br>
+				<input type="radio" name="gender" value="wrong">
+					Online MT is fully integrated into many TM tools and actually works offline so all the MT comes from my computer.
+				<br>
+				<input type="radio" name="gender" value="wrong">
+					My original text stays in my TM tool, the MT provider "reads" my original translation and I can then also suggest better translations through the TM tool interface, i.e. by selecting the Update checkbox in SDL Trados Studio 2015 next to the MT provider in the Open Document or Project Settings.
+			</form>
+			<!-- Status content -->
+			<div class="status" id='status-9'></div>
+		</div>
+
+		<div id='question-10' class="col-xs-7" style="display: none;">
+			<!-- Question content -->
+			<h3>
+				Question 10
+			</h3>
+			<p>
+				TM tools analyse files against one or more TMs and will show the number of 100% matches, fuzzies and no matches. There is normally a column in an analysis file for segments, words and characters. Why do translators generally charge based on the word or character count rather than the segment count?
+			</p>
+			<hr>
+			<p>
+				Select one:
+			</p>
+			<!-- Radio buttons -->
+			<form action="#" id='form-10'>
+				<input type="radio" name="gender" value="wrong">
+					A segment is just as representative and reflects the true word count the same way as a word or a character count.
+				<br>
+				<input type="radio" name="gender" value="correct">
+					Because a segment can consist of any number of words/characters and is therefore not a true reflection of the actual work involved to translate that particular segment.
+				<br>
+				<input type="radio" name="gender" value="wrong">
+					It's just the convention to use the words or characters column rather than the segments column.
+				<br>
+				<input type="radio" name="gender" value="wrong">
+					Basing the cost of a translation on a segment count would actually be a lot fairer to both the client and the translator than basing it on a word or character count.
+			</form>
+			<!-- Status content -->
+			<div class="status" id='status-10'></div>
+		</div>
+
+		<div id='question-11' class="col-xs-7" style="display: none;">
+			<!-- Question content -->
+			<h3>
+				Question 11
+			</h3>
+			<p>
+				Work out the price for a translation, at £80/1000 words (based on the source text) using the following translation memory rates:
+			</p>
+			<p>
+				Perfect Match/Context Match/Repetitions – 0%</br>
+				100% Match – 0%</br>
+				95~99% – 30%</br>
+				75~94% – 60%</br>
+				0~74% – 100%
+			</p>
+			<p>
+				<img src="images/Q11_table.png" style="zoom: 50%;">
+			</p>
+			<hr>
+			<!-- Radio buttons -->
+			<form action="#" id='form-11'>
+				<input type="radio" name="gender" value="wrong">
+					£823.07
+				<br>
+				<input type="radio" name="gender" value="wrong">
+					£861.76
+				<br>
+				<input type="radio" name="gender" value="wrong">
+					£796.17
+				<br>
+				<input type="radio" name="gender" value="correct">
+					£769.67
+			</form>
+			<!-- Status content -->
+			<div class="status" id='status-11'></div>
+		</div>
+
+		<div id='question-12' class="col-xs-7" style="display: none;">
+			<!-- Question content -->
+			<h3>
+				Question 12
+			</h3>
+			<p>
+				Definitions play an important role in terminology entries in term bases.
+			</p>
+			<p>
+				<i><b>Verbosity</b>: To engage in being verbose, or the act of being verbose.</i>
+			</p>
+			<hr>
+			The definition
+			<!-- Radio buttons -->
+			<form action="#" id='form-12'>
+				<input type="radio" name="gender" value="correct">
+					is a tautological/circular definition which is inadequate.
+				<br>
+				<input type="radio" name="gender" value="wrong">
+					is a good definition.
+				<br>
+				<input type="radio" name="gender" value="wrong">
+					is too vague and therefore inadequate.
+				<br>
+				<input type="radio" name="gender" value="wrong">
+					is too general and therefore inadequate.
+			</form>
+			<!-- Status content -->
+			<div class="status" id='status-12'></div>
+		</div>
+
+		<div id='question-13' class="col-xs-7" style="display: none;">
+			<!-- Question content -->
+			<h3>
+				Question 13
+			</h3>
+			<p>
+				TM tools analyse files against one or more TMs and will show the number of 100% matches, fuzzies and no matches. There is normally a column in a log (analysis) file for segments, words and characters. Why do translators generally charge based on the word or character count rather than the segment count?
+			</p>
+			<hr>
+			<p>
+				Select one:
+			</p>
+			<!-- Radio buttons -->
+			<form action="#" id='form-13'>
+				<input type="radio" name="gender" value="wrong">
+					It's just the convention to use the words or characters column rather than the segments column.
+				<br>
+				<input type="radio" name="gender" value="correct">
+					Because a segment can consist of any number of words/characters and is therefore not a true reflection of the actual work involved to translate that particular segment.
+				<br>
+				<input type="radio" name="gender" value="wrong">
+					A segment is just as representative and reflects the true word count the same way as a word or a character count.
+				<br>
+				<input type="radio" name="gender" value="wrong">
+					Basing the cost of a translation on a segment count would actually be a lot fairer to both the client and the translator than basing it on a word or character count.
+			</form>
+			<!-- Status content -->
+			<div class="status" id='status-13'></div>
+		</div>
+
+		<div id='question-14' class="col-xs-7" style="display: none;">
+			<!-- Question content -->
+			<h3>
+				Question 14
+			</h3>
+			<p>
+				Work out the price for a translation, at £75/1000 words (based on the source text) using the following translation memory rates:
+			</p>
+			<p>
+				Perfect Match/Context Match/Repetitions – 0%</br>
+				100% Match – 10%</br>
+				85~99% – 10%</br>
+				75~84% – 40%</br>
+				0~74% – 100%
+			</p>
+			<p>
+				<img src="images/Q14_table.png" style="zoom: 50%;">
+			</p>
+			<!-- Radio buttons -->
+			<form action="#" id='form-14'>
+				<input type="radio" name="gender" value="wrong">
+					£1741.73
+				<br>
+				<input type="radio" name="gender" value="wrong">
+					£1810.65
+				<br>
+				<input type="radio" name="gender" value="wrong">
+					£1769.30
+				<br>
+				<input type="radio" name="gender" value="correct">
+					£1750.80
+			</form>
+			<!-- Status content -->
+			<div class="status" id='status-14'></div>
+		</div>
+
+		<div id='question-15' class="col-xs-7" style="display: none;">
+			<!-- Question content -->
+			<h3>
+				Question 15
+			</h3>
+			<p>
+				Translation memory is only useful for certain types of text. The source document must be available in electronic format. Translation memory works best with material that contains a large proportion of repeated or partially repeated text, such as, Instruction and operator manuals, software specifications, help files etc.
+			</p>
+			<hr>
+			<p>
+				Is this True or False?
+			</p>
+			<!-- Radio buttons -->
+			<form action="#" id='form-15'>
+				<input type="radio" name="gender" value="wrong">
+					False
+				<br>
+				<input type="radio" name="gender" value="correct">
+					True
+			</form>
+			<!-- Status content -->
+			<div class="status" id='status-15'></div>
+		</div>
+
+		<div id='question-16' class="col-xs-7" style="display: none;">
+			<!-- Question content -->
+			<h3>
+				Question 16
+			</h3>
+			<p>
+				Which sentence is 100% match to the sample sentence?
+			</p>
+			<p>
+				<b>Sample sentence</b>: Britain has over 50 varieties of butterflies.
+			</p>
+			<hr>
+			<!-- Radio buttons -->
+			<form action="#" id='form-16'>
+				<input type="radio" name="gender" value="wrong">
+					Britain has&nbsp;&nbsp;over 50 varieties of butterflies
+				<br>
+				<input type="radio" name="gender" value="wrong">
+					Britain has over 50 varieties of butterflies
+				<br>
+				<input type="radio" name="gender" value="wrong">
+					Britain have over 50 varieties of butterflies
+				<br>
+				<input type="radio" name="gender" value="wrong">
+					Britain have over 50 varieties of butterfly
+				<br>
+				<input type="radio" name="gender" value="correct">
+					Britain has over 50 varieties of butterflies.
+			</form>
+			<!-- Status content -->
+			<div id='status-16'></div>
+		</div>
+
+
+		<div class="col-xs-1"></div>
+
+		<!-- JQuery evebt listeners -->
+		<script type="text/javascript">
+			var images_directory = 'images/'
+			var correct_image_suffix = '-correct'
+			var image_extention = '.png'
+
+			// Initialise the default images
+			$(".img").each(function(){
+				var id = this.id.split('-')[1]
+				this.src = images_directory + id + image_extention
+			});
+
+			// On click listener for the divs
+			$( ".frontpage_square" ).click(function() {
+
+  				if (typeof(selected_question) != 'undefined') {
+					selected_question.style.display = 'none'
+				}
+
+				var id = this.id.split('-')[1]
+				var question = document.getElementById('question-' + id);
+				$('#question-' + id).show();
+
+				selected_question = question
+			});
+
+			// On click listener for the radio buttons
+			$("input[type='radio']").click(function(){
+				var id = this.parentNode.id.split('-')[1]
+
+				if (this.value == 'correct') {
+					$('#status-' + id).text(' Correct!');
+					$('#status-' + id).attr('style','color: green;');
+					$('#image-' + id).attr('src', images_directory + id + correct_image_suffix + image_extention)
+				} else {
+					$('#status-' + id).text('Wrong answer!');
+					$('#status-' + id).attr('style','color: red;');
+					$('#image-' + id).attr('src', images_directory + id + image_extention)
+				}
+			});
+		</script>
+
+	</body>
+</html>
